@@ -1,0 +1,1 @@
+/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  images: {\n    remotePatterns: [\n      { protocol: 'https', hostname: '**' },\n      { protocol: 'http', hostname: 'localhost' },\n    ],\n  },\n};\n\nmodule.exports = nextConfig;
