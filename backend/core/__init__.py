@@ -1,0 +1,1 @@
+# AgriSmartRwanda Backend Core Module
